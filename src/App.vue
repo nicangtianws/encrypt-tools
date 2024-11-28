@@ -120,5 +120,7 @@ const changeLanguage = (lang) => {
 
 .el-main {
   padding: 0;
+  padding-bottom: 50px;
+  padding-top: 30px;
 }
 </style>

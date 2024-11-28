@@ -11,7 +11,8 @@ import { ElementPlusResolver } from 'unplugin-vue-components/resolvers'
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => {
   // Determine the base path based on the mode
-  const base = mode === 'production' ? '/' : '/tools';
+  // const base = mode === 'production' ? './' : '/encrypt-tools';
+  const base = '/encrypt-tools';
 
   return {
     base, // Use the determined base path
